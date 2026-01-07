@@ -1,6 +1,6 @@
 from fastapi import FastAPI 
-from .database import Base, engine 
-from .routes import reviews 
+from app.database import Base, engine 
+from app.routes import reviews 
 from fastapi.middleware.cors import CORSMiddleware
 
 #Base.metadata.drop_all(bind=engine)
