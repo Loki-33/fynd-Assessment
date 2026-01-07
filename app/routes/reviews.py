@@ -1,9 +1,9 @@
 from fastapi import APIRouter, Depends, HTTPException 
 from sqlalchemy.orm import Session 
-from .database import SessionLocal 
-from .models import Review 
-from .schemas import ReviewSubmit, ReviewResponse
-from .llm import generate_ai_outputs
+from database import SessionLocal 
+from models import Review 
+from schemas import ReviewSubmit, ReviewResponse
+from llm import generate_ai_outputs
 
 router = APIRouter(prefix='/reviews', tags=['reviews'])
 
