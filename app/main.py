@@ -9,7 +9,8 @@ app = FastAPI(title='FEEDBACK SYSTEM')
 
 origins = [
     "http://localhost:3000", 
-    "https://*.vercel.app",
+    "https://fynd-assessment-api.onrender.com", 
+    '*'
 ]
 
 app.add_middleware(
