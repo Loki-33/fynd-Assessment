@@ -5,6 +5,10 @@ from dotenv import load_dotenv
 load_dotenv() 
 
 OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
+if not OPENROUTER_API_KEY:
+    print("ERROR: OPENROUTER_API_KEY not found!!!")
+else:
+    print("API KEY LOADED SUCCESSFULLY")
 URL = "https://openrouter.ai/api/v1/chat/completions"
 
 HEADERS = {
