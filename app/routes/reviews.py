@@ -5,7 +5,6 @@ from ..models import Review
 from ..schemas import ReviewSubmit, ReviewResponse
 from ..llm import generate_ai_outputs
 
-
 router = APIRouter(prefix='/reviews', tags=['reviews'])
 
 def get_db():
