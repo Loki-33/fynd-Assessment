@@ -9,6 +9,8 @@ A full-stack application for collecting and analyzing customer review using llm 
 - **API Documentation**: https://fynd-assessment-api.onrender.com/docs 
 
 ## FEATURES
+
+### OVERVIEW
 - **Review Submission**: Users can submit ratings (1-5) and detailed feedback
 - **AI-Powered Analysis**: 
   - Automated response generation for customer engagement
