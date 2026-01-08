@@ -4,6 +4,8 @@
 
 **MODEL USED:** xiaomi/mimo-v2-flash:free
 
+**NOTE:** Inside Task1 folder theres data folder, which contains all the saved files from the analysis.
+
 ## APPROACH-1: DIRECT METHOD
 1. Design: Simple, straightforward instruction
 2. Rationale: Minimal complexity, direct task specification
